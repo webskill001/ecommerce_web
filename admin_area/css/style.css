@@ -1,0 +1,23 @@
+.container-fluid{
+    background-color: rgb(250, 250, 250);
+}
+/* sidebar */
+
+.container-fluid .row .card{
+    border-radius:0px;
+}
+
+.container-fluid .row .card .list-group .list-group-item{
+    color:rgb(219, 212, 212);
+}
+
+@media (min-width:991px){
+    .container-fluid .row .main{
+        margin-left:-100px;
+        margin-top:50px;
+    }
+}
+
+.table-attribute{
+    font-size: 14px;
+}
